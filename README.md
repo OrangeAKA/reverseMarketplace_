@@ -2,7 +2,10 @@
 
 A **B2B rewards** prototype: when a user on a rewards platform looks for something specific (often premium) that the fixed catalog doesn't offer, they can submit a **Smart Request**. The platform pushes that request to a **vendor network** to bid. Once a bid is **approved**, the customer is notified to complete the purchase, acting as a **targeted online commerce concierge**.
 
-**[Live prototype (Vercel)]**(https://v0-smart-request-bulk-buy.vercel.app/). Working application built with v0 and deployed on Vercel.
+**Problem & opportunity**  
+Rewards platforms usually offer a fixed catalog. Users who want something specific or premium that isn't listed have no path to get it. That's a missed opportunity to capture demand and build loyalty. Reverse Marketplace gives them a **Smart Request** path so the platform can take the ask to vendors, get bids, and fulfill that demand.
+
+**[Live prototype (Vercel)](https://v0-smart-request-bulk-buy.vercel.app/). Working application built with v0 and deployed on Vercel.
 
 > This repo is not connected to the live deployment above, but it contains the complete setup and latest code of the prototype that was built on v0.
 
@@ -11,6 +14,8 @@ A **B2B rewards** prototype: when a user on a rewards platform looks for somethi
 ## Table of contents
 
 - [What this is](#what-this-is)
+- [Problem & opportunity](#problem--opportunity)
+- [How to use the prototype](#how-to-use-the-prototype)
 - [Product in one sentence](#product-in-one-sentence)
 - [Product flow](#product-flow)
 - [How it works](#how-it-works)
@@ -31,6 +36,31 @@ A **B2B rewards** prototype: when a user on a rewards platform looks for somethi
 | **Live prototype** | [v0-smart-request-bulk-buy.vercel.app](https://v0-smart-request-bulk-buy.vercel.app/). Working app built with v0, deployed on Vercel. |
 | **What it is** | A **functional prototype** of a full product in development. This was a **personal prototype** built to **present the business case**. |
 | **How it was built** | Prototyped with **v0**, deployed on **Vercel**. Code is on **GitHub** for public visibility. Anyone can explore it. This repo is not connected to the live deployment but has the complete setup and latest code of the prototype. |
+
+---
+
+## Problem & opportunity
+
+Rewards platforms typically run on a **curated, fixed catalog**. A segment of users looks for **specific or premium items** (e.g. a particular watch or device) that the catalog doesn't carry. Today they have no way to ask. The program misses that demand and the chance to build loyalty and earn commission. Reverse Marketplace adds a **Smart Request** path: the customer describes what they want, the platform pushes it to the vendor network for bids, and the program can fulfill that request once a bid is accepted.
+
+---
+
+## How to use the prototype
+
+> **Use the tabs at the top of the [live app](https://v0-smart-request-bulk-buy.vercel.app/) to switch between four interfaces.** Each tab is a different user role. Follow the flow below to see the full journey.
+
+**When does Smart Request show up?**  
+In the **Customer Interface**, Smart Request is the path when what the customer wants **isn't in the fixed catalog**. From the customer home, use **Create Smart Request** to submit a request (or go via catalog/search when the item isn't found). The prototype currently offers Create Smart Request from the home page; in a full product this would also appear when catalog search returns no match.
+
+
+| Tab | Role | What to do |
+| --- | --- | --- |
+| **Customer Interface** | Reward member | Home has links to **Create Smart Request**, **Browse Rewards Catalog**, and **My Requests**. Create a Smart Request (what, quantity, budget, date); AI pre-fills from your text. Track status in My Requests. |
+| **Seller Portal** | Vendor | **Open Requests**: requests in Bidding. Open one and **Submit Bid** (price, quantity, delivery, optional tiered pricing). **My Bids**: Pending and Awarded. |
+| **Procurement Dashboard** | Platform / buyer | See requests and bids. **Accept** a bid to move the request to payment and purchase order. |
+| **ERP Simulation** | Operations | View **purchase orders** and **inventory** (mock). Outcome of accepted bids. |
+
+**Quick path to try the flow:** Customer (Create Smart Request) → Seller (Submit Bid on that request) → Procurement (Accept the bid) → ERP (See the PO and inventory).
 
 ---
 
