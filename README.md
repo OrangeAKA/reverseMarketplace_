@@ -2,7 +2,7 @@
 
 A **B2B rewards** prototype: when a user on a rewards platform looks for something specific (often premium) that the fixed catalog doesn't offer, they can submit a **Smart Request**. The platform pushes that request to a **vendor network** to bid. Once a bid is **approved**, the customer is notified to complete the purchase, acting as a **targeted online commerce concierge**.
 
-**[Live prototype (Vercel)](https://v0-smart-request-bulk-buy.vercel.app/). Working application built with v0 and deployed on Vercel.
+**[Live prototype (Vercel)]**(https://v0-smart-request-bulk-buy.vercel.app/). Working application built with v0 and deployed on Vercel.
 
 > This repo is not connected to the live deployment above, but it contains the complete setup and latest code of the prototype that was built on v0.
 
