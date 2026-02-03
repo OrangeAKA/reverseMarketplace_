@@ -5,7 +5,7 @@ A **B2B rewards** prototype: when a user on a rewards platform looks for somethi
 **Problem & opportunity**  
 Rewards platforms usually offer a fixed catalog. Users who want something specific or premium that isn't listed have no path to get it. That's a missed opportunity to capture demand and build loyalty. Reverse Marketplace gives them a **Smart Request** path so the platform can take the ask to vendors, get bids, and fulfill that demand.
 
-**[Live prototype (Vercel)](https://v0-smart-request-bulk-buy.vercel.app/). Working application built with v0 and deployed on Vercel.
+[Live prototype (Vercel)](https://v0-smart-request-bulk-buy.vercel.app/). Working application built with v0 and deployed on Vercel.
 
 > This repo is not connected to the live deployment above, but it contains the complete setup and latest code of the prototype that was built on v0.
 
